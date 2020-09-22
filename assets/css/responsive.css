@@ -1,0 +1,212 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .hero-area .hero-wrp h2 a { 
+        bottom: -100px;
+    }
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero-area { 
+        padding-top: 50px;
+        margin-bottom: 70px;
+    }
+    .services-area {
+        padding-top: 65px;
+        padding-bottom: 40px;
+    }
+    .tabs-area .container-fluid {
+        padding: 50px 30px; 
+        margin-bottom: 80px;
+    }
+    .hero-area .hero-wrp h2 {
+        font-size: 25px; 
+        margin-left: 45px; 
+    }
+    .hero-area .hero-wrp h2 a { 
+        bottom: -75px;
+    }
+    .left-tab ul {
+        display: block;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .video-area:after { 
+        width: 10%; 
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .tabs-btns { 
+        flex-wrap: wrap;
+    }
+    .tabs-btns button {
+        width: 50%; 
+        margin-left: 0; 
+        height: 30px; 
+    }
+    .tabs-area .container-fluid {
+        padding: 30px 15px; 
+        margin-bottom: 80px;
+    }
+    .single-feature-img span { 
+        width: 100%; 
+        margin-left: 0;  
+        padding-left: 0; 
+        text-align: center;
+    }
+    .all-features-item button.slick-arrow { 
+        width: 40px;
+        height: 40px; 
+        top: 65%; 
+    }
+    .all-features-item button.slick-arrow img {
+        width: 13px;
+    }
+    .features-area { 
+        padding-top: 0;
+    }
+    .tipo-img {
+        margin-top: 50px;
+    }
+    .tabs-area .prev, .next { 
+        position: relative;
+        top: -30px; 
+        left: 30px;
+    }
+    .tabs-area .next {
+        left: auto;
+        right: -70px;
+    }
+    .section-title h3 { 
+        font-size: 22px; 
+    }
+    .hero-area .hero-img img { 
+        height: 170px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .hero-area { 
+        padding-top: 0;
+        margin-bottom: 0px;
+    }
+
+    .services-area {
+        padding-top: 150px;
+        padding-bottom: 25px;
+    }
+
+    .left-tab ul {
+        display: flex;
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .video-area:after { 
+        width: 10%; 
+    }
+
+    .hero-area.flex-center {
+        display: block;
+    }
+    .hero-area.flex-center .hero-img {
+        width: 100%;
+    }
+    .hero-area .hero-wrp {
+        width: 100%;
+    }
+    .hero-area .hero-wrp h2 {
+        font-size: 22px; 
+        margin-left: 10px; 
+        margin-top: 110px;
+        padding-bottom: 80px;
+    } 
+    .hero-area .hero-wrp h2 a { 
+        bottom: 20px;
+    }
+    .monumentha-area {
+        padding-top: 50px;
+        margin-top: -10px;
+        padding-bottom: 50px;
+    }
+    .monumentha-wrp h4 {
+        font-size: 24px;
+        margin-bottom: 0px;
+    }
+    .monumentha-wrp img {
+        display: block;
+        margin: 17px auto;
+    }
+    .monumentha-wrp p {
+        margin: 0;
+        font-size: 16px;
+    }
+    .planta_baja-area {
+        background: #222222;
+        padding-top: 50px;
+        padding-bottom: 69px; 
+    }
+    .planta_baja-area:after { 
+        width: 5px; 
+    }
+    .planta_baja-area img.c-logo{
+        display: none;
+    }
+    .left-tab ul li { 
+        margin-bottom: -1px; 
+        width: 50%; 
+    }
+    .withframe { 
+        padding: 20px; 
+    }
+    .roof .withframe:after { 
+        width: 5px;  
+        right: -5px; 
+    }
+    .video-area {
+        padding-top: 50px;
+        padding-bottom: 50px; 
+    }
+    .video-area:before { 
+        height: 5px; 
+    }
+    .video-blk img { 
+        height: 250px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .video-blk a img { 
+        height: auto;
+    }
+
+
+
+
+
+
+
+
+} 
